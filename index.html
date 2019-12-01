@@ -18,6 +18,7 @@ body {
     font-family: Merriweather;
     font-size: 32px;
     position: relative; 
+    height: 32px;
     width: 100%;   
   }
   @keyframes blink {
@@ -89,7 +90,7 @@ body {
   }
   // }
   window.addEventListener("load", typeLabel, false);
-  window.addEventListener("orientationchange", document.reload, false);
+  window.addEventListener("orientationchange", function(){document.location.reload()}, false);
 </script>
 
 </head>
