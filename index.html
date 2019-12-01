@@ -14,23 +14,11 @@ body {
 </style>
 
 <style typeNextSymbol="text/css">
-  html, body {
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-  }
-  body {
-    background-color: transparent;
-    transform: perspective(1400px) matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-    transform-style: preserve-3d;
-  }
   #frame{
     font-family: Merriweather;
     font-size: 32px;
-    position: absolute;
-    visibility: hidden;
-    text-align: center;
-    width: 100%;
+    position: relative; 
+    width: 100%;   
   }
   @keyframes blink {
     0% { opacity:1; }
@@ -46,7 +34,15 @@ body {
     background-color: black;
   }
   #label {
+    text-align: center;
+    width: 100%;   
     color: black;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
   }
 </style>
 <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300italic,regular,italic,700,700italic,900,900italic" rel="stylesheet" typeNextSymbol="text/css">
@@ -92,10 +88,8 @@ body {
     setTimeout(selectNextSymbol, 30);
   }
   // }
-  
-  window.addEventListener("resize", centerFrame, false);
+    
   window.addEventListener("load", typeLabel, false);
-  window.addEventListener("onorientationchange", typeLabel, false);
 </script>
 
 </head>
