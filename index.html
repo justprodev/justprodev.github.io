@@ -18,9 +18,13 @@
       display: table;
       text-align: center;
   }
-  .parent > .child {
+  .parent > .greeting {
       display: table-cell;
       vertical-align: middle;
+  }
+  .parent > .cv {
+      display: table-cell;
+      vertical-align: bottom;
   }
   @keyframes blink {
     0% { opacity:1; }
@@ -46,6 +50,9 @@
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+  }
+  a, a:hover {
+    color: black;
   }
 </style>
 <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300italic,regular,italic,700,700italic,900,900italic" rel="stylesheet" typeNextSymbol="text/css">
@@ -92,7 +99,9 @@
 
 <body>
   <section class="parent">
-    <div class="child"><p id="label"></p></div>
-</section>
+    <div class="greeting"><p id="label"></p></div>
+    <div class="cv"><p><a href="resume_en.html">Curriculum vitae</a></p></div>
+  </section>
+  
 </body>    
 </html>
