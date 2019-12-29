@@ -1,25 +1,26 @@
-<!-- ay@justprodev.com -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title></title>
 <meta name="generator" content="dirty hands" />
 
-<style typeNextSymbol="text/css">
-body {
-    margin: 20px;
-}
-</style>
 
-<style typeNextSymbol="text/css">
-  #frame{
-    font-family: Merriweather;
-    font-size: 32px;
-    position: relative; 
-    height: 32px;
-    width: 100%;   
+<style type="text/css">
+  html, body {
+    height: 100%;
+  }
+  .parent {
+      width: 100%;
+      height: 100%;
+      display: table;
+      text-align: center;
+  }
+  .parent > .child {
+      display: table-cell;
+      vertical-align: middle;
   }
   @keyframes blink {
     0% { opacity:1; }
@@ -35,6 +36,7 @@ body {
     background-color: black;
   }
   #label {
+    font-size: 32px;
     text-align: center;
     width: 100%;   
     color: black;
@@ -50,19 +52,12 @@ body {
 <script language="javascript">
   const email = "alex@justprodev.com";
 
-  function centerFrame() {
-    const frame = document.getElementById("frame");
-    frame.style.top = (window.innerHeight/2-frame.offsetHeight*2) + "px";
-    frame.style.visibility = "visible";
-  }
-
   // typing the label
   var label;
   const text = "Implement your ideas with "+email;
   var cursorPos = 0;
 
   function typeLabel() {
-    centerFrame();
     cursorPos = 0;
     label = document.getElementById("label");
     typeNextSymbol();
@@ -96,8 +91,8 @@ body {
 </head>
 
 <body>
-  <div id="frame">
-      <p id="label"></p>
-  </div>
+  <section class="parent">
+    <div class="child"><p id="label"></p></div>
+</section>
 </body>    
 </html>
