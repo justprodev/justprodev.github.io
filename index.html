@@ -64,7 +64,8 @@
 </style>
 <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300italic,regular,italic,700,700italic,900,900italic" rel="stylesheet" typeNextSymbol="text/css">
 <script language="javascript">
-  const email = "alex@justprodev.com";
+  const email = "us";
+  const link = "mailto:offer@justprodev.com";
 
   // typing the label
   var label;
@@ -93,7 +94,7 @@
   }
   function selectNextSymbol() {
     if(cursorPos > text.length) return;
-    label.innerHTML = text.substr(0, emailPos) + "<a href=\"/cv/\" id=\"email\">"+text.substr(emailPos, email.length-(text.length-cursorPos))+"<span id=\"cursor\">|</span></a>" + text.substr(cursorPos, text.length);
+    label.innerHTML = text.substr(0, emailPos) + "<a href=\""+link+"\" id=\"email\">"+text.substr(emailPos, email.length-(text.length-cursorPos))+"<span id=\"cursor\">|</span></a>" + text.substr(cursorPos, text.length);
     cursorPos++;
     setTimeout(selectNextSymbol, 30);
   }
@@ -106,7 +107,7 @@
 
 <body>
   <section class="parent">
-    <div class="greeting"><p id="label"><noscript>Implement your ideas with <a href="/cv/resume_en.html" id="email">alex@justprodev.com</a></p></noscript></div>
+    <div class="greeting"><p id="label"><noscript>Implement your ideas with <a href="mailto:offer@justprodev.com" id="email">us</a></p></noscript></div>
     <!--<div class="cv"><p><a href="/cv/resume_en.html" id="cv">Curriculum vitae</a></p></div>-->
   </section>
   
