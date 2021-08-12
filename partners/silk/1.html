@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+
+<html>
+
+
+<title>Оплата</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="images/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+<link rel="manifest" href="images/favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+	integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+	integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+</script>
+<script src="/payform/js/jquery.mask.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+	integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+	integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+</script>
+<link rel="stylesheet" href="/payform/css/style.css" />
+
+
+<script>
+	$(function() {
+            $('.form').submit(function () {
+                $('.payform').addClass('d-none');
+                $('.payform-processing').removeClass('d-none');
+                $('#submitBtng').attr("disabled", "disabled");
+            });
+            $('#frmCCNum').mask('0000 0000 0000 0000',{clearIfNotMatch: true});
+            $('#expityMonth').mask('00',{clearIfNotMatch: true});
+            $('#expityYear').mask('00',{clearIfNotMatch: true});
+            $("#frmNameCC").keypress(function(event){
+                var ew = (event.keyCode ? event.keyCode : event.which);
+                if(ew == 32 || ew == 8)
+                    return true;
+                if(48 <= ew && ew <= 57)
+                    return true;
+                if(65 <= ew && ew <= 90)
+                    return true;
+                if(97 <= ew && ew <= 122)
+                    return true;
+                return false;
+            });
+
+        });
+</script>
+
+
+
+</head>
+
+<body>
+
+	<div class="container-fluid">
+		<div class="row d-flex justify-content-center">
+			<div class="col-12 col-sm-12 col-md-8 col-xl-4 pay-column shadow-lg pt-1 pb-3 rounded-sm">
+				<div class="payform ">
+
+					<div class="card mb-3 border-secondary">
+						<div class="card-body">
+							<h5>Номер заказа: 803156033</h5>
+						</div>
+					</div>
+					<form action="/payform/purchase" method="post" class="form">
+						<input type="hidden" name="token" value="eyJhbGciOiJIbWFjU0hBMjU2In0=.eyJ0eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjI2MzgyMTY0LCJhcHBJZCI6ImVjb21fd2d0IiwidXNlcklkIjoiMTAzMTU1NTIiLCJtZXJjaGFudElkIjoiMTAzMTU1NDMiLCJ0ZXJtaW5hbCI6IjEwMDgwNjM3Iiwib3JkZXIiOiI4MDMxNTYwMzQifQ==.lKgTFVm0uR5VV+1tJ11TmWCflDCN8kXGRm5koiVoxTU="/>
+						<div class="card card-front pb-3 border-secondary">
+
+							<div class="card-body">
+								<div class="row">
+									<div class="col-12">
+										<label for="frmCCNum">Номер карты</label>
+										<div class="input-group">
+											<input type="text" class="form-control border-secondary" id="frmCCNum" name="cardnumber" autocomplete="cc-number" placeholder="Номер карты"  required autofocus  value=""/>
+                                    </div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-sm-7 col-7  col-md-7">
+											<div class="row">
+												<label for="expityMonth" class="col-12">Действует до</label>
+											</div>
+											<div class="row">
+												<div class="col-6">
+													<input type="text" class="form-control border-secondary" id="expityMonth" name="ccmonth" placeholder="ММ" required  value="" autocomplete="cc-exp-month"/>
+                                        </div>
+													<div class="col-6">
+														<input type="text" class="form-control border-secondary" id="expityYear" name="ccyear" placeholder="ГГ" required  value="" autocomplete="cc-exp-year"/>
+                                        </div>
+													</div>
+												</div>
+												<div class="col-sm-5 col-5  col-md-5">
+													<div class="row">
+														<label for="frmCCCVC" class="col-12">CVV</label>
+													</div>
+													<div class="row">
+														<div class="col-12">
+															<input type="password" class="form-control border-secondary" id="frmCCCVC" name="cvc" autocomplete="cc-csc" placeholder="CVV" required  value=""/>
+                                        </div>
+														</div>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col-12">
+														<label for="frmNameCC">Имя на карте</label>
+														<div class="input-group">
+															<input type="text" class="form-control border-secondary" id="frmNameCC" name="ccname" autocomplete="cc-name" placeholder="Имя на карте"  required autofocus value=""/>
+                                    </div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="row mt-3">
+												<div class="col-12">
+													<button type="submit" class="btn btn-outline-success btn-block" id="submitBtn">
+                                Оплатить 10 <span class="currency">KZT</span>
+                            </button>
+													<button type="button" class="btn btn-outline-secondary btn-block" id="cancelBtn">Отмена</button>
+												</div>
+											</div>
+
+
+
+					</form>
+				</div>
+				<div class="payform-processing d-none">
+
+					<div class="card border-secondary">
+						<div class="card-header d-flex justify-center">
+							<div class="clearfix">
+								<div class="spinner-border float-right" role="status">
+									<span class="sr-only">Loading...</span>
+								</div>
+							</div>
+							<h5 class="pl-3 pt-1">
+								Платеж обрабатывается
+							</h5>
+						</div>
+						<div class="card-body payform-processing-message">
+							<p>№ Заказа: 803156033<br/>
+                            Cумма: 10 <span class="currency">KZT</span>
+							</p>
+
+						</div>
+						<div class="card-footer text-body">
+							<p class="w-100 text-center">
+								<h6>Не обновляйте окно.</h6>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="mt-3">
+					<img src="https://silksoftgroup.com/img/logo.png" height="25" >
+					<img src="/payform/images/visa.svg" height="25" style="margin:6px 0 0 10px" >
+					<img src="/payform/images/mc.svg" height="25" style="margin:6px 0 0 15px;">
+            </div>
+
+				</div>
+			</div>
+
+		</div>
+
+
+</body>
+
+</html>
