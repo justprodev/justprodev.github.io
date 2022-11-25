@@ -1,0 +1,6 @@
+{
+  "minAmount": 100000,
+  "maxAmount": 600000,
+  "terms": [3,6,9,12,24],
+  "defaultTerm": 3
+}
