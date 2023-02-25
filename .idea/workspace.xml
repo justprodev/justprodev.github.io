@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dcfafba8-0d46-4770-800b-602a1f8e82db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/partners/technofit/images/home/service_card/inbody.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/partners/technofit/images/home/service_card/massage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/partners/technofit/images/home/service_card/personal_training.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partners/technofit/images/subscriptions/default_abonement_background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/partners/technofit/images/home/service_card/abonemnet.png" beforeDir="false" afterPath="$PROJECT_DIR$/partners/technofit/images/home/service_card/abonement.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675346458343</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="technofit home services cards">
+      <created>1677364253049</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677364253049</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +118,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Revert &quot;jtt docs&quot;&#10;&#10;This reverts commit 1b134b25" />
     <MESSAGE value="return eula" />
-    <option name="LAST_COMMIT_MESSAGE" value="return eula" />
+    <MESSAGE value="technofit home services cards" />
+    <option name="LAST_COMMIT_MESSAGE" value="technofit home services cards" />
   </component>
 </project>
