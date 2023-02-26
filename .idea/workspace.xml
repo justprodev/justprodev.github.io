@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dcfafba8-0d46-4770-800b-602a1f8e82db" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/partners/technofit/images/home/service_card/abonement.png" beforeDir="false" afterPath="$PROJECT_DIR$/partners/technofit/images/subscriptions/service_card/abonement.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/partners/technofit/images/home/service_card/inbody.png" beforeDir="false" afterPath="$PROJECT_DIR$/partners/technofit/images/subscriptions/service_card/inbody.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/partners/technofit/images/home/service_card/massage.png" beforeDir="false" afterPath="$PROJECT_DIR$/partners/technofit/images/subscriptions/service_card/massage.png" afterDir="false" />
@@ -32,17 +33,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Development_git/justprodev.github.io&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "/Users/alex/Development_git/justprodev.github.io",
+    "show.migrate.to.gradle.popup": "false"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Development_git\justprodev.github.io\partners\technofit\images\subscriptions" />
