@@ -6,13 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="dcfafba8-0d46-4770-800b-602a1f8e82db" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partners/technofit/images/subscriptions/category/abonements.png" beforeDir="false" afterPath="$PROJECT_DIR$/partners/technofit/images/subscriptions/categories/abonements.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partners/technofit/images/subscriptions/category/heal_and_body.png" beforeDir="false" afterPath="$PROJECT_DIR$/partners/technofit/images/subscriptions/categories/heal_and_body.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partners/technofit/images/subscriptions/category/massage.png" beforeDir="false" afterPath="$PROJECT_DIR$/partners/technofit/images/subscriptions/categories/massage.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partners/technofit/images/subscriptions/category/online_trainings.png" beforeDir="false" afterPath="$PROJECT_DIR$/partners/technofit/images/subscriptions/categories/online_trainings.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partners/technofit/images/subscriptions/category/other.png" beforeDir="false" afterPath="$PROJECT_DIR$/partners/technofit/images/subscriptions/categories/other.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partners/technofit/images/subscriptions/category/personal.png" beforeDir="false" afterPath="$PROJECT_DIR$/partners/technofit/images/subscriptions/categories/personal.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partners/technofit/images/subscriptions/category/sections.png" beforeDir="false" afterPath="$PROJECT_DIR$/partners/technofit/images/subscriptions/categories/sections.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partners/technofit/images/subscriptions/categories/abonements.png" beforeDir="false" afterPath="$PROJECT_DIR$/partners/technofit/images/subscriptions/categories/abonements.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partners/technofit/images/subscriptions/categories/heal_and_body.png" beforeDir="false" afterPath="$PROJECT_DIR$/partners/technofit/images/subscriptions/categories/heal_and_body.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partners/technofit/images/subscriptions/categories/massage.png" beforeDir="false" afterPath="$PROJECT_DIR$/partners/technofit/images/subscriptions/categories/massage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partners/technofit/images/subscriptions/categories/online_trainings.png" beforeDir="false" afterPath="$PROJECT_DIR$/partners/technofit/images/subscriptions/categories/online_trainings.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partners/technofit/images/subscriptions/categories/other.png" beforeDir="false" afterPath="$PROJECT_DIR$/partners/technofit/images/subscriptions/categories/other.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partners/technofit/images/subscriptions/categories/personal.png" beforeDir="false" afterPath="$PROJECT_DIR$/partners/technofit/images/subscriptions/categories/personal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partners/technofit/images/subscriptions/categories/sections.png" beforeDir="false" afterPath="$PROJECT_DIR$/partners/technofit/images/subscriptions/categories/sections.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,17 +36,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "cidr.known.project.marker": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "/Users/alex/Development_git/justprodev.github.io/partners/technofit/images/subscriptions/category",
-    "show.migrate.to.gradle.popup": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/alex/Development_git/justprodev.github.io/partners/technofit/images/subscriptions/category&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/partners/technofit/images/subscriptions/category" />
@@ -158,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681216241265</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="products">
+      <created>1681217231603</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1681217231603</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
