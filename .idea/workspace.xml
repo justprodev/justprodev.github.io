@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dcfafba8-0d46-4770-800b-602a1f8e82db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/partners/technofit/images/programs/Гармония тела.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/partners/technofit/images/programs/Десткие секции.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/partners/technofit/images/programs/Единоборства.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/partners/technofit/images/programs/Кардио.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/partners/technofit/images/programs/Сила.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/partners/technofit/images/programs/Танцы.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/partners/technofit/images/programs/Функциональный тренинг.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/partners/technofit/images/programs/img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partners/technofit/images/programs/Десткие секции.png" beforeDir="false" afterPath="$PROJECT_DIR$/partners/technofit/images/programs/Детские Секции.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,17 +32,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "cidr.known.project.marker": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "/Users/alex/Development_git/justprodev.github.io/partners/technofit/images/programs",
-    "show.migrate.to.gradle.popup": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/alex/Development_git/justprodev.github.io/partners/technofit/images/programs&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/partners/technofit/images/programs" />
@@ -173,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681283804212</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="programs">
+      <created>1681506046000</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1681506046000</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +217,7 @@
     <MESSAGE value="--" />
     <MESSAGE value="products" />
     <MESSAGE value="optimized images" />
-    <option name="LAST_COMMIT_MESSAGE" value="optimized images" />
+    <MESSAGE value="programs" />
+    <option name="LAST_COMMIT_MESSAGE" value="programs" />
   </component>
 </project>
