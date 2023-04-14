@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dcfafba8-0d46-4770-800b-602a1f8e82db" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/partners/technofit/images/programs/Гармония тела.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/partners/technofit/images/programs/Десткие секции.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/partners/technofit/images/programs/Единоборства.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/partners/technofit/images/programs/Кардио.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/partners/technofit/images/programs/Сила.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/partners/technofit/images/programs/Танцы.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/partners/technofit/images/programs/Функциональный тренинг.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partners/technofit/images/subscriptions/categories/abonements.png" beforeDir="false" afterPath="$PROJECT_DIR$/partners/technofit/images/subscriptions/categories/abonements.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partners/technofit/images/subscriptions/categories/heal_and_body.png" beforeDir="false" afterPath="$PROJECT_DIR$/partners/technofit/images/subscriptions/categories/heal_and_body.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partners/technofit/images/subscriptions/categories/massage.png" beforeDir="false" afterPath="$PROJECT_DIR$/partners/technofit/images/subscriptions/categories/massage.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partners/technofit/images/subscriptions/categories/online_trainings.png" beforeDir="false" afterPath="$PROJECT_DIR$/partners/technofit/images/subscriptions/categories/online_trainings.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partners/technofit/images/subscriptions/categories/other.png" beforeDir="false" afterPath="$PROJECT_DIR$/partners/technofit/images/subscriptions/categories/other.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partners/technofit/images/subscriptions/categories/personal.png" beforeDir="false" afterPath="$PROJECT_DIR$/partners/technofit/images/subscriptions/categories/personal.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partners/technofit/images/subscriptions/categories/sections.png" beforeDir="false" afterPath="$PROJECT_DIR$/partners/technofit/images/subscriptions/categories/sections.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,19 +36,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/alex/Development_git/justprodev.github.io/partners/technofit/images/subscriptions/category&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "/Users/alex/Development_git/justprodev.github.io/partners/technofit/images/programs",
+    "show.migrate.to.gradle.popup": "false"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/partners/technofit/images/programs" />
       <recent name="$PROJECT_DIR$/partners/technofit/images/subscriptions/category" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -165,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681217231603</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="optimized images">
+      <created>1681283804212</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1681283804212</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +213,7 @@
     <MESSAGE value="technofit locker image" />
     <MESSAGE value="--" />
     <MESSAGE value="products" />
-    <option name="LAST_COMMIT_MESSAGE" value="products" />
+    <MESSAGE value="optimized images" />
+    <option name="LAST_COMMIT_MESSAGE" value="optimized images" />
   </component>
 </project>
