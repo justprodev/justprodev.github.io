@@ -33038,7 +33038,7 @@ if(s.$2(a,k)>0){j.b[b]=k
 b=p}}j.b[b]=a}}
 A.Bx.prototype={
 R(a){var s=A.af0(null,A.alp(B.N,B.Dl),!1)
-return new A.rQ(new A.tY(B.yx,A.ad0(B.Dk,B.zm,!1,new A.Wl()),null),"Demo images feed",s,null)}}
+return new A.rQ(new A.tY(B.yx,A.ad0(B.Dk,B.zm,!1,new A.Wl()),null),"Flutter example app for cached_image package",s,null)}}
 A.Wl.prototype={
 $0(){A.ab2("https://github.com/justprodev/flutter_cached_image/blob/main/example/lib/view/demo_images_feed_view.dart")},
 $S:0}
