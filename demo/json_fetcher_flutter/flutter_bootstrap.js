@@ -32,6 +32,6 @@ _flutter.loader.load({
         }, 200);
     },
     serviceWorkerSettings: {
-        serviceWorkerVersion: "1843378828",
+        serviceWorkerVersion: "2028030378",
     },
 });
