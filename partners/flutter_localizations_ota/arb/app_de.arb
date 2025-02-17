@@ -1,0 +1,16 @@
+{
+  "fl_ota_version": "2",
+
+  "title": "Beispiel für die Verwendung des Pakets \"{package}\"",
+  "@title": {
+    "placeholders": {
+      "package": {
+        "type": "String"
+      }
+    }
+  },
+  "currentLocaleTitle": "Aktuelles Gebietsschema",
+  "remoteUpdateTitle": "Fernaktualisierung",
+
+  "testResource": "Dies ist der entfernte Wert der Testressource"
+}

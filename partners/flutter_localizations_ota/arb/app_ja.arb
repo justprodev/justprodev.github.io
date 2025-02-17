@@ -1,0 +1,16 @@
+{
+  "fl_ota_version": "2",
+
+  "title": "パッケージ\"{package}\"の使用例",
+  "@title": {
+    "placeholders": {
+      "package": {
+        "type": "String"
+      }
+    }
+  },
+  "currentLocaleTitle": "現在のロケール",
+  "remoteUpdateTitle": "リモート更新",
+
+  "testResource": "これは、テストリソースのリモート値です"
+}

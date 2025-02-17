@@ -1,0 +1,16 @@
+{
+  "fl_ota_version": "2",
+
+  "title": "Exemple d'utilisation du package \" {package}\"",
+  "@title": {
+    "placeholders": {
+      "package": {
+        "type": "String"
+      }
+    }
+  },
+  "currentLocaleTitle": "Paramètres régionaux actuels",
+  "remoteUpdateTitle": "Mise à jour à distance",
+
+  "testResource": "Il s'agit de la valeur distante de la ressource de test"
+}

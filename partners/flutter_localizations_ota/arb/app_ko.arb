@@ -1,0 +1,16 @@
+{
+  "fl_ota_version": "2",
+
+  "title": "패키지\"{package}\"의 사용 예",
+  "@title": {
+    "placeholders": {
+      "package": {
+        "type": "String"
+      }
+    }
+  },
+  "currentLocaleTitle": "현재 로캘",
+  "remoteUpdateTitle": "원격 업데이트",
+
+  "testResource": "이 값은 테스트 리소스의 원격 값입니다"
+}
