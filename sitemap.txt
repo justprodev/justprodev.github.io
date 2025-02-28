@@ -1,1 +1,3 @@
 https://justprodev.com/demo/cached_image/index.html
+https://justprodev.com/partners/flutter_localizations_ota/web/index.html
+https://justprodev.com/demo/json_fetcher_flutter/index.html
