@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="348" height="178" viewBox="0 0 348 178" fill="none">
+  <defs>
+    <linearGradient id="bgC" x1="0" y1="0" x2="348" y2="178" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#854F0B"/>
+      <stop offset="1" stop-color="#E55A2B"/>
+    </linearGradient>
+  </defs>
+  <rect width="348" height="178" rx="16" fill="url(#bgC)"/>
+  <text x="16" y="22" fill="#FFFFFF80" font-size="10" font-family="Montserrat, Arial, sans-serif" font-weight="700" letter-spacing="1">АКЦИЯ</text>
+  <text x="16" y="52" fill="#FFFFFF" font-size="27" font-family="Montserrat, Arial, sans-serif" font-weight="800">AirPods Pro</text>
+  <text x="16" y="82" fill="#FFFFFF" font-size="27" font-family="Montserrat, Arial, sans-serif" font-weight="800">2nd Gen</text>
+  <text x="16" y="108" fill="#FFFFFFB3" font-size="13" font-family="Montserrat, Arial, sans-serif" font-weight="500">При покупке iPhone скидка 10%</text>
+
+  <text x="16" y="148" fill="#FFFFFF" font-size="24" font-family="Montserrat, Arial, sans-serif" font-weight="800">89 990 ₸</text>
+  <text x="146" y="148" fill="#FFFFFF80" font-size="13" font-family="Montserrat, Arial, sans-serif" font-weight="500" text-decoration="line-through">99 990 ₸</text>
+
+  <rect x="264" y="130" width="50" height="22" rx="11" fill="#FFFFFF33"/>
+  <text x="289" y="145" text-anchor="middle" fill="#FFFFFF" font-size="11" font-family="Montserrat, Arial, sans-serif" font-weight="700">-10%</text>
+</svg>
+
