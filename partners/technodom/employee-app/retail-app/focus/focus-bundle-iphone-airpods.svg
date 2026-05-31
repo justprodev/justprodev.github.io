@@ -5,7 +5,7 @@
       <stop offset="1" stop-color="#185FA5"/>
     </linearGradient>
   </defs>
-  <rect width="348" height="178" rx="16" fill="url(#bgB)"/>
+  <rect width="348" height="178" fill="url(#bgB)"/>
   <text x="16" y="22" fill="#FFFFFF80" font-size="10" font-family="Montserrat, Arial, sans-serif" font-weight="700" letter-spacing="1">БАНДЛ ДНЯ</text>
   <text x="16" y="52" fill="#FFFFFF" font-size="27" font-family="Montserrat, Arial, sans-serif" font-weight="800">iPhone 15</text>
   <text x="16" y="82" fill="#FFFFFF" font-size="27" font-family="Montserrat, Arial, sans-serif" font-weight="800">+ AirPods Pro</text>
