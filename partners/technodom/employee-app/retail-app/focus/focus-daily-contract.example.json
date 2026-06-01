@@ -1,0 +1,20 @@
+[
+  {
+    "id": "focus-iphone-15",
+    "imgUrl": "https://justprodev.com/partners/technodom/employee-app/retail-app/focus/focus-iphone-15.svg",
+    "actionUrl": "https://sellerapp.technodom.kz/p/martfon-gsm-apple-iphone-17-8256gb6348-black-293857",
+    "priority": 100
+  },
+  {
+    "id": "focus-bundle-iphone-airpods",
+    "imgUrl": "https://justprodev.com/partners/technodom/employee-app/retail-app/focus/focus-bundle-iphone-airpods.svg",
+    "actionUrl": "https://sellerapp.technodom.kz/p/martfon-gsm-apple-iphone-17-8256gb6348-black-293857",
+    "priority": 90
+  },
+  {
+    "id": "focus-airpods-promo",
+    "imgUrl": "https://justprodev.com/partners/technodom/employee-app/retail-app/focus/focus-airpods-promo.svg",
+    "actionUrl": "https://sellerapp.technodom.kz/p/martfon-gsm-apple-iphone-17-8256gb6348-black-293857",
+    "priority": 80
+  }
+]
